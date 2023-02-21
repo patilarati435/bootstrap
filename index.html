@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>text animation</title>
+<style> 
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+  margin-left: 200px;
+}
+p{
+    /* margin-top:100px; */
+    margin-left: 15px;
+    text-align: center;
+}
+
+@keyframes example {
+  0%   {background-color:red;margin-left: 300; margin-top:0;}
+  25%  {background-color:yellow;margin-left: 1000 px; margin-top:0px;}
+  50%  {background-color:blue; margin-left: 1000px; margin-top:400px;}
+  75%  {background-color:green; margin-left: 300px ; margin-top:400px;}
+  100% {background-color:red; margin-left: 300px ; margin-top:0px;}
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    width: 100%;
+    height:100vh;
+    /* background-color: rgb(121, 112, 112); */
+    background-image: url(../nature-flower-wallpaperflower4.jpg);
+    background-size: cover;
+
+}
+img{
+    border-radius: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>CSS Animation</h1>
+
+<div class="example"><img src="../butterfly.jpg" width="200" height="200" alt=""></div>
+
+<!-- <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p> -->
+
+</body>
+</html>
+
